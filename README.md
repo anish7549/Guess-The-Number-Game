@@ -37,7 +37,7 @@ Welcome to the **Guess the Number Game**! This is a simple console-based Java ga
 ## Technologies Used
 - Java
 ## Author
-- [Anish kumar](https://github.com/anish7549/Guess-the-Number-Game.git)
+- [Anish kumar](https://github.com/anish7549)
 
 
 ## Thank you for playing the Guess the Number Game! Enjoy!
