@@ -7,7 +7,7 @@ class Guesser
     {
         Random random = new Random();
         guessNum = random.nextInt(50) + 1;
-        System.out.println("Guesser has guessed the number (hidden for players.");
+        System.out.println("Guesser has guessed the number (hidden for players.)");
         return guessNum;
     }
 }
@@ -81,7 +81,7 @@ class Umpire {
                 return true;
             }
         } else {
-            System.out.println("No players guessed correctly. Game over!");
+            System.out.println("No players guessed correctly.");
             return false;
         }
     }
@@ -104,13 +104,6 @@ public class GuessTheNumber {
             if (!continueGame) {
                 u.displayGuesserNumber();
                 break;
-            }
-            if (round == 2) {
-                System.out.println("Welcome to the Semifinal!");
-            } else if (round == 3) {
-                System.out.println("Welcome to the final!");
-            } else if (round == 4) {
-                System.out.println("Welcome to the Super Final!");
             }
             round++;
         }
